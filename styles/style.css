@@ -176,15 +176,25 @@ img {
 
 /* footer */
 .footer {
-    width: 100%;
-    background-color: #151414;
     height: 577px;
     color: white;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
 }
 
 .future {
-    margin: 0px 885px 130px 230px;
     padding-top: 130px;
+    padding-left: 230px;
+    padding-bottom: 130px;
+    width: 485px;
+}
+
+.subscribe {
+    margin-right: 229px;
+    margin-top: 130px;
+    margin-left: 331px;
+
 }
 
 .future h1 {
@@ -192,20 +202,44 @@ img {
     font-size: 45px;
     margin-bottom: 16px;
 }
-.future p{
+
+.future p {
+    font-weight: 400;
     font-size: 16px;
-    margin-top: 24px;
+    margin-bottom: 16px;
 }
-.future img{
-    display: flex;
-    justify-content: space-around;
-    gap: 4px;
-    margin-top: 10px;
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
-.subcribs{
-    display: block;
+
+.subscribe input {
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    width: 325px;
+    height: 64px;
+    margin-bottom: 16px;
+    background: #151414;
+    font-weight: 500px;
+    font-size: 20px;
+
+
 }
-.subcribs{
-    margin: 130px 229px 243px 1048px;
-    display: block;
+
+.subscribe button {
+    width: 170.11px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.future a{
+    
+    border-radius: 5px;
+    margin: 7px;
+    background-color: white;
+    padding: 8px;
 }
