@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header setion */
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    background-color: #EDEDED;
+
+}
+
+.header .header-title {
+    padding-left: 845px;
+    padding-right: 120px;
+    padding-top: 210px;
+    padding-bottom: 210px;
+    text-align: right;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+
+}
+
+.header p {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+
+}
+
+.header button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+
+
+}
+
+/* failer section */
+
+.trikmark li {
+    list-style-image: url('../images/icons/trik.png');
+}
+
+.my-failer {
+    margin: 0 327px 130px 201px;
+}
+
+.girl {
+    margin-top: 0;
+}
+
+.shape {
+    height: 380px;
+    margin-top: 186px;
+    margin-left: 33px;
+    margin-bottom: ;
+}
+
+img {
+    display: flex;
+    position: absolute;
+}
+
+.failer-content {
+    padding-top: 150px;
+    margin-left: 656px;
+    margin-top: 100px
+}
+
+.failer-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.failer-content p {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failer-content li {
+    font-size: 16px;
+    color: #444343;
+}
+
+/* My plan */
+.my-plans {
+    margin: 130px 230px 124px 230px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.plan-titile {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-details {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.plan-details h3 {
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+
+}
+
+.plan-details p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plan-details img {
+    margin-left: 50px;
+
+}
+
+.web-dev img {
+    margin-left: 78px;
+}
+
+.java-script img {
+    margin: 0 0 0 30px;
+}
+
+/* Mind set */
+.mind-set {
+    margin: 0 230px 130px 230px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.mind-set-title {
+    padding: 59px 617px 59px 64px;
+}
+
+.mind-set-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.mind-set-title button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    background-color: #151414;
+    height: 577px;
+    color: white;
+}
+
+.future {
+    margin: 0px 885px 130px 230px;
+    padding-top: 130px;
+}
+
+.future h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.future p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+.future img{
+    display: flex;
+    justify-content: space-around;
+    gap: 4px;
+    margin-top: 10px;
+}
+.subcribs{
+    display: block;
+}
+.subcribs{
+    margin: 130px 229px 243px 1048px;
+    display: block;
+}
